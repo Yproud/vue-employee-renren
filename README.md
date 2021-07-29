@@ -40,6 +40,7 @@
 - 企业申诉界面，可以反馈意见，在欢迎界面同样设有公开的账号
 
   ![img](https://github.com/Yproud/vue-employee-renren/blob/main/screen-shot/photo4.png)
+
 ## 更新日志
 
 每个版本的详细更改都记录在[release notes](https://github.com/renrenio/renren-fast-vue/releases)中。

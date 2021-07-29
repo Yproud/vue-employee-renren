@@ -22,9 +22,8 @@
 ## 部分截图说明
 
 设计了不同的端口进入平台以致于功能不同，管理员界面如下，账号不公开，由开发者保留。
-设计了不同的端口进入平台以至于功能不同，
+设计了不同的端口进入平台以至于功能不同
 
-![img](https://github.com/Yproud/vue-employee-renren/blob/main/screen-shot/photo1.png)
 - 欢迎界面
 
   ![img](https://github.com/Yproud/vue-employee-renren/blob/main/screen-shot/photo1.png)

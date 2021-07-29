@@ -13,6 +13,7 @@
 - 演示地址：[http://demo.open.renren.io/renren-fast](http://demo.open.renren.io/renren-fast) (账号密码：admin/admin)
 
 
+## 说明文档
 1. 采用sass统一管理网站主题色，若需要修改，文件夹在*src/assets/scss*，只需要改动配置颜色即可对整个网站的主题颜色进行修改
 2. 采用前后端分离，后端的[github地址]()可参考这里,需要同时配置好前后端才能运行
 3. 此地址为前端文件，主要使用vue进行前端页面的渲染，前端运行需要配置[node.js](https://nodejs.org/en/)环境，并搭载脚手架，若需要配置在你自己的电脑上运行，需要让node.js自动生成模块包，另外似乎库包sass不会自动建立，需要自己手动使用*npm install node-sass sass-loader --save-dev*安装
@@ -21,9 +22,24 @@
 ## 部分截图说明
 
 设计了不同的端口进入平台以致于功能不同，管理员界面如下，账号不公开，由开发者保留。
+设计了不同的端口进入平台以至于功能不同，
 
 ![img](https://github.com/Yproud/vue-employee-renren/blob/main/screen-shot/photo1.png)
+- 欢迎界面
 
+  ![img](https://github.com/Yproud/vue-employee-renren/blob/main/screen-shot/photo1.png)
+
+- 管理员界面如下，账号不公开，由开发者保留。
+
+  ![img](https://github.com/Yproud/vue-employee-renren/blob/main/screen-shot/photo2.png)
+
+- 企业申请账号界面，在欢迎界面有公开的账号
+
+  ![img](https://github.com/Yproud/vue-employee-renren/blob/main/screen-shot/photo3.png)
+
+- 企业申诉界面，可以反馈意见，在欢迎界面同样设有公开的账号
+
+  ![img](https://github.com/Yproud/vue-employee-renren/blob/main/screen-shot/photo4.png)
 ## 更新日志
 
 每个版本的详细更改都记录在[release notes](https://github.com/renrenio/renren-fast-vue/releases)中。

@@ -13,7 +13,6 @@
 - 演示地址：[http://demo.open.renren.io/renren-fast](http://demo.open.renren.io/renren-fast) (账号密码：admin/admin)
 
 
-## 说明文档
 1. 采用sass统一管理网站主题色，若需要修改，文件夹在*src/assets/scss*，只需要改动配置颜色即可对整个网站的主题颜色进行修改
 2. 采用前后端分离，后端的[github地址]()可参考这里,需要同时配置好前后端才能运行
 3. 此地址为前端文件，主要使用vue进行前端页面的渲染，前端运行需要配置[node.js](https://nodejs.org/en/)环境，并搭载脚手架，若需要配置在你自己的电脑上运行，需要让node.js自动生成模块包，另外似乎库包sass不会自动建立，需要自己手动使用*npm install node-sass sass-loader --save-dev*安装

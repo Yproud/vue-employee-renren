@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />		
+		<script type="text/javascript" src="//apps.bdimg.com/libs/jquery/1.11.3/jquery.min.js">
+		</script>
+		<script src="//ku.shouce.ren/libs/qrcodejs/qrcode.min.js">
+		</script>
+	</head>
+	<body> 
+		<div class="main">
+			<div class="inwrap">
+				<h1>QRCode 生成二维码
+				</h1>
+				<h2>API 接口
+				</h2>
+				<div class="example">
+					<h3>makeCode(value)
+					</h3>
+					<div class="form">
+						<dl class="row">
+							<dt>输入内容
+							</dt>
+							<dd>
+								<input type="text" id="qrcode_text" class="input" size="30">
+							</dd>
+						</dl>
+						<dl class="row">
+							<dt>预览
+							</dt>
+							<dd>
+								<div id="qrcode">
+								</div>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			(function() {
+				var qrcode = new QRCode('qrcode');
+				$('#qrcode_text').on('change', function() {
+					qrcode.makeCode(this.value);
+				}
+									);
+			}
+			)();
+		</script>
+	</body>
+</html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />		
+		<script type="text/javascript" src="//apps.bdimg.com/libs/jquery/1.11.3/jquery.min.js">
+		</script>
+		<script src="//ku.shouce.ren/libs/qrcodejs/qrcode.min.js">
+		</script>
+	</head>
+	<body> 
+		<div class="main">
+			<div class="inwrap">
+				<h1>QRCode 生成二维码
+				</h1>
+				<h2>API 接口
+				</h2>
+				<div class="example">
+					<h3>makeCode(value)
+					</h3>
+					<div class="form">
+						<dl class="row">
+							<dt>输入内容
+							</dt>
+							<dd>
+								<input type="text" id="qrcode_text" class="input" size="30">
+							</dd>
+						</dl>
+						<dl class="row">
+							<dt>预览
+							</dt>
+							<dd>
+								<div id="qrcode">
+								</div>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			(function() {
+				var qrcode = new QRCode('qrcode');
+				$('#qrcode_text').on('change', function() {
+					qrcode.makeCode(this.value);
+				}
+									);
+			}
+			)();
+		</script>
+	</body>
+</html>
